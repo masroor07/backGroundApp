@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        #container {
+            background-color: grey;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 50%;
+            margin-top: 100px;
+        }
+        input{
+            width: auto;
+            align-self: center;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        button{
+            width: auto;
+            align-self: center;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+    </style>
+    <title>Background App</title>
+</head>
+<body >
+    <div id="container">
+        <h2>Test backgroud Color</h2>
+        <label for="Colorinput">Color: </label>
+        
+        <input type="text" id="color" placeholder="Enter the background color">    
+        <button id="submit">Change</button>
+    </div>
+    
+    <script src="/JS/bg.js"></script>
+</body>
+</html>
